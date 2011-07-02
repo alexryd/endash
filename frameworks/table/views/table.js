@@ -325,6 +325,7 @@ SC.TableView = SC.View.extend({
         rowSpacing: this.get('rowSpacing'),
         isEditableBinding: SC.Binding.from('.isEditable',this),
         canEditContentBinding: SC.Binding.from('.canEditContent',this),
+        canDeleteContentBinding: SC.Binding.from('.canDeleteContent', this),
         targetBinding: SC.Binding.from('.target',this),
         actionBinding: SC.Binding.from('.action',this),
         canReorderContentBinding: SC.Binding.from('.canReorderContent',this),
